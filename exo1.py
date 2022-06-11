@@ -45,20 +45,21 @@ def compute_empirical_risk(f, X, Y):
 
 def predictor(x):
     if x == 0:
-        return 0
-    elif x == 1:
         return 1
+    elif x == 1:
+        return 0
     elif x == 2:
         return 1
     else:
         raise ValueError("incorrect input")
-        
+
+
 p = 1/3
 q = 2/3
 r = 1/4
 max_n_samples = 1500
 
-generalization_error = (9/16)*p + (3/8)*(1-q) + (1/16)*(1-r)
+generalization_error = (9/16)*(1-p) + (3/8)*(q) + (1/16)*(1 - r)
 bayes_risk = (9/16)*min(p, 1-p) + (3/8)*min(q, 1-q) + (1/16)*min(r, 1-r)
 
 empirical_risks = list()
