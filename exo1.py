@@ -72,5 +72,5 @@ plt.plot(range(1, max_n_samples), (max_n_samples-1)*[bayes_risk], color="red",la
 plt.xlabel("n")
 plt.legend(loc="best")
 plt.title(r"$f$"+": Empirical risk and generalization error and bayes risk"+"\n"+f"$R(f)$"+f"={generalization_error:.2f}")
-plt.savefig("image/empirical_risk_and_generalization_error_and_bayes_risk.pdf")
+plt.savefig("image/exo1/empirical_risk_and_generalization_error_and_bayes_risk.pdf")
 plt.close()
