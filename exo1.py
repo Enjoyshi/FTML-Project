@@ -11,7 +11,7 @@ def sample_dataset(n, p, q, r):
         Y ~ B(q) if X=1
         Y ~ B(r) if X=2
     """
-    X = np.random.randint(0, 3, n)
+    X = np.random.binomial(2, 1/4, n)
     Y = np.zeros(n)
     for i in range(n):
         if X[i] == 0:
