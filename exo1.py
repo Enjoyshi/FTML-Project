@@ -1,4 +1,9 @@
 
+"""
+This file is the simulation of problem 1's question 2, that gives a statiscal 
+approximation of generalization error and compares it to Bayes risk
+"""
+
 import numpy as np
 import matplotlib.pyplot as plt
 

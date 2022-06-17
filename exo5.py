@@ -1,3 +1,7 @@
+"""
+This file preforms several classification models on the dataset.
+"""
+
 import math
 import numpy as np
 import matplotlib.pyplot as plt
