@@ -2,7 +2,7 @@
 
 - Exo1: Finie
 - Exo2: Finie
-- Exo3: En cours
+- Exo3: Finie
 - Exo4: Finie
 - Exo5: Finie
 
